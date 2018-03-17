@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', Arial, sans-serif;
+    color: black;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(114,209,238,1) 51%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(51%, rgba(114,209,238,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(114,209,238,1) 51%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(114,209,238,1) 51%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(114,209,238,1) 51%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(114,209,238,1) 51%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+}
+
+span {
+    color: black;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.text {
+  font-size: 18px;
+}
+
+#inputBurger {
+  width: 470px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.eat, .eaten {
+    border: 2px solid black;
+    background: rgba(255,202,138,1);
+    background: -moz-linear-gradient(top, rgba(255,202,138,1) 0%, rgba(255,165,56,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,202,138,1)), color-stop(100%, rgba(255,165,56,1)));
+    background: -webkit-linear-gradient(top, rgba(255,202,138,1) 0%, rgba(255,165,56,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,202,138,1) 0%, rgba(255,165,56,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,202,138,1) 0%, rgba(255,165,56,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,202,138,1) 0%, rgba(255,165,56,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffca8a', endColorstr='#ffa538', GradientType=0 );
+    padding: 30px;
+    margin: 50px 0;
+}
+
+.eat h2,
+.eaten h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+#submit-btn {
+  width: 140px;
+  height: 30px;
+  background-color: #ef8829;
+  border: none;
+  color: white;
+}
+
+.burgermenu,
+.eaten-burger {
+  padding: 4px;
+}
+
+.burgermenu span,
+.eaten-burger span {
+  font-size: 14px;
+}
+
+.burgermenu button {
+  background-color: rebeccapurple;
+  border: none;
+  color: white;
+  width: 120px;
+  font-size: 14px;
+}
